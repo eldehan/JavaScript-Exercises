@@ -11,8 +11,8 @@
 // or
 
 let oddNumbers = (lowerLimit, upperLimit) => {
-  for (number = lowerLimit; number <= upperLimit; number += 1) {
-    number % 2 !== 0 ? console.log(number) : null;
+  for (let number = lowerLimit; number <= upperLimit; number += 1) {
+    (number % 2 !== 0) ? console.log(number) : null;
   }
 }
 
